@@ -4,7 +4,7 @@
 - [HW1 MLP | Phoneme Recognition](#hw1-mlp--phoneme-recognition)
 - [HW2 CNN | Face Recognition and Verification](#hw2-cnn--face-recognition-and-verification)
 - [HW3 RNN - Forward/Backword/CTC Beamsearch | Connectionist Temporal Classification](#hw3-rnn---forwardbackwordctc-beamsearch--connectionist-temporal-classification)
-- [HW4 Word-leve Neural Language Models using RNNs | Attention Mechanisms and Memory Networks](#hw4-word-leve-neural-language-models-using-rnns--attention-mechanisms-and-memory-networks)
+- [HW4 Word-level Neural Language Models using RNNs | Attention Mechanisms and Memory Networks](#hw4-word-leve-neural-language-models-using-rnns--attention-mechanisms-and-memory-networks)
 
 ## Introduction
 This repo contains course project of [11785 Deep Learning](http://deeplearning.cs.cmu.edu) at CMU. The projects starts off with MLPs and progresses into more complicated concepts like attention and seq2seq models. Each homework assignment consists of two parts. 
@@ -36,7 +36,7 @@ Implement RNNs and GRUs deep learning library like PyTorch.
 Kaggle challenge: [Utterance to Phoneme Mapping](https://www.kaggle.com/c/11-785-s20-hw3p2).<br>This challenge works with speech data. The contest uses unaligned labels, which means the correlation between the features and labels is not given explicitly and the model will have to figure this out by itself. Hence the data will have a list of phonemes for each utterance, but not which frames correspond to which phonemes.
 The main task for this assignment will be to predict the phonemes contained in utterances in the test set. The training data does not contain aligned phonemes, and it is not a requirement to produce alignment for the test data.
 
-## HW4 Word-leve Neural Language Models using RNNs | Attention Mechanisms and Memory Networks
+## HW4 Word-level Neural Language Models using RNNs | Attention Mechanisms and Memory Networks
 - <b>HW4P1</b>
 Train a Recurrent Neural Network on the WikiText-2 Language Moldeling Dataset. This task uses reucurrent network to model and generate text, and uses various techniques to regularize recurrent networks and improve their performance.
 
